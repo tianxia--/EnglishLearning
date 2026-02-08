@@ -1,0 +1,85 @@
+# Gradle
+.gradle/
+build/
+
+# Android
+local.properties
+.idea/
+.DS_Store
+*.iml
+*.hprof
+.cxx/
+captures/
+
+# Copyrighted Content
+shared-content/
+新概念课文1-4PDF/
+英音/
+android-native-app/app/src/main/assets/book1/
+android-native-app/app/src/main/assets/book2/
+android-native-app/app/src/main/assets/book3/
+android-native-app/app/src/main/assets/book4/
+android-native-app/app/src/main/assets/indexed_lessons.json
+####################
+# OS / Editor
+####################
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+####################
+# Android Native
+####################
+android-native-app/.gradle/
+android-native-app/**/build/
+android-native-app/**/.idea/
+android-native-app/*.iml
+android-native-app/local.properties
+android-native-app/.cxx/
+
+####################
+# iOS Native
+####################
+ios-native-app/Pods/
+ios-native-app/DerivedData/
+ios-native-app/*.xcworkspace
+ios-native-app/*.xcuserstate
+ios-native-app/*.pbxuser
+ios-native-app/*.mode1v3
+ios-native-app/*.mode2v3
+ios-native-app/*.perspectivev3
+
+####################
+# Flutter
+####################
+flutter-app/.dart_tool/
+flutter-app/build/
+flutter-app/.flutter-plugins
+flutter-app/.flutter-plugins-dependencies
+flutter-app/.packages
+
+####################
+# React Native
+####################
+react-native-app/node_modules/
+react-native-app/ios/Pods/
+react-native-app/android/.gradle/
+react-native-app/android/**/build/
+react-native-app/.expo/
+
+####################
+# Node / Env
+####################
+**/.env*
+**/node_modules/
+
+####################
+# Artifacts
+####################
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+
