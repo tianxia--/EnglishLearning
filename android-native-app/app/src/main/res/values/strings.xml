@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">新概念英语</string>
+    <string name="book1_title">Book 1 - First Things First</string>
+    <string name="book2_title">Book 2 - Practice and Progress</string>
+    <string name="book3_title">Book 3 - Developing Skills</string>
+    <string name="book4_title">Book 4 - Fluency in English</string>
+
+    <string name="home_title">New Concept English</string>
+    <string name="lessons">Lessons</string>
+    <string name="progress">Progress</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="settings">Settings</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="replay">Replay</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+
+    <string name="playback_speed">Speed</string>
+    <string name="transcript">Transcript</string>
+    <string name="quiz">Quiz</string>
+
+    <string name="lesson_completed">Lesson Completed!</string>
+    <string name="lesson_in_progress">In Progress</string>
+    <string name="not_started">Not Started</string>
+</resources>
