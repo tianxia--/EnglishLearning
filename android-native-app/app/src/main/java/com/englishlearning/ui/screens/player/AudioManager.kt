@@ -25,6 +25,13 @@ class AudioManager @Inject constructor(
                 DefaultDataSource.Factory(context)
             )
         )
+        .setAudioAttributes(
+            androidx.media3.common.AudioAttributes.Builder()
+                .setContentType(androidx.media3.common.C.AUDIO_CONTENT_TYPE_SPEECH)
+                .setUsage(androidx.media3.common.C.USAGE_MEDIA)
+                .build(),
+            true // handleAudioFocus = true
+        )
         .build()
 
     private val _playbackState = MutableStateFlow<PlaybackState>(PlaybackState.Idle)

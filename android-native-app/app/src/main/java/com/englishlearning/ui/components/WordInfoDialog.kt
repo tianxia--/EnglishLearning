@@ -321,6 +321,8 @@ fun WordInfoDialog(
 /**
  * Hilt入口点接口
  */
+@dagger.hilt.EntryPoint
+@dagger.hilt.InstallIn(dagger.hilt.components.SingletonComponent::class)
 interface TranslationServiceEntryPoint {
     fun getTranslationService(): TranslationService
 }
