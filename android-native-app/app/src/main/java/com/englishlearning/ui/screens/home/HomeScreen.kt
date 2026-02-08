@@ -23,6 +23,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.englishlearning.data.model.Book
 import com.englishlearning.domain.DailyTask
 import com.englishlearning.ui.components.BookCard
+import com.englishlearning.ui.components.LoadingScreen
 import com.englishlearning.ui.screens.home.HomeViewModel.HomeUiState
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -64,6 +65,9 @@ fun HomeScreen(
                 .padding(paddingValues)
         ) {
             when (uiState) {
+                is HomeUiState.Loading -> {
+                    LoadingScreen()
+                }
                 is HomeUiState.Success -> {
                     val books = (uiState as HomeUiState.Success).books
                     
